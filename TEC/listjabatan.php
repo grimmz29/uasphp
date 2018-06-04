@@ -134,7 +134,7 @@ else{
 				cbpHorizontalMenu.init();
 			});
 		</script>
-		<h1><center>list Jabatan</center></h1>
+		<h1><center>List Jabatan</center></h1>
 		<br>
 			<center>
 				<table width="1000" border="1">
@@ -168,11 +168,11 @@ else{
 		<br/>
 		<?php
 			for($i=1;$i<=$total_nav;$i++) {
-					if($i==1) echo '<a href="?p=listkelas&no=' . $i . '">First</a>';
-					if($i==1) echo '<a href="?p=listkelas&no=' . ($no-1) . '">Previous</a>';
-					echo '<a href="?p=listkelas&no=' . $i . '" ' . ($no == $i ? 'class="select"' : '') . '>' . $i . '</a>';
-					if($i == $total_nav) echo '<a href="?p=listkelas&no=' . ($no+1) . '">Next</a>';
-					if($i==$total_nav) echo '<a href="?p=listkelas&no=' . $i . '">Last</a>';
+					if($i==1) echo '<a href="?p=listkelas&no=' . $i . '">First</a> &nbsp&nbsp&nbsp&nbsp';
+					if($i==1) echo '<a href="?p=listkelas&no=' . ($no-1) . '">Previous</a> &nbsp&nbsp&nbsp&nbsp';
+					echo '<a href="?p=listkelas&no=' . $i . '" ' . ($no == $i ? 'class="select"' : '') . '>' . $i . '</a> &nbsp&nbsp&nbsp&nbsp';
+					if($i == $total_nav) echo '<a href="?p=listkelas&no=' . ($no+1) . '">Next</a> &nbsp&nbsp&nbsp&nbsp';
+					if($i==$total_nav) echo '<a href="?p=listkelas&no=' . $i . '">Last</a> &nbsp&nbsp&nbsp&nbsp';
 				}
 				echo "<br/>";
 		
