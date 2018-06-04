@@ -38,4 +38,9 @@
 			</div>
 		</div>
 	</aside>
+	<div id="copyright" class="animate-me fadeInUp">
+		<div class="container">
+			<center><p>Website ini dibuat untuk memenuhi tugas PHP<p></center>
+		</div>
+	</div>
 </footer>
